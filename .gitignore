@@ -1,0 +1,13 @@
+# Ignore a specific large file
+large_dataset.csv
+
+# Ignore all files with a specific extension (e.g., CSVs, Parquet, Zip)
+*.csv
+*.parquet
+*.zip
+*.jar
+*.gz
+
+# Ignore an entire folder containing data
+data/raw/
+data/processed/
